@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=D, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <title>Daily Journal</title>
+</head>
+<body>
+    <article>
+        <form action="none">
+        <fieldset>
+            <label for="Date">Date:</label>
+            <input type="date" name="date" id="date">
+        </fieldset>
+        <fieldset>
+            <label for="Concept">Concept:</label>
+            <input type="text" name="concept" id="concept">
+        </fieldset> 
+        <fieldset>
+            <label for="Entry">Entry:</label>
+            <input type="text" name="entry" id="entry">
+        </fieldset> 
+        <fieldset>
+            <label for="Mood">Mood:</label>
+            <select name="mood" id="mood">
+                <option value="" selected>-- Please Select --</option>
+                <option value="Happy">Happy</option>
+                <option value="Tired">Tired</option>
+                <option value="Frustrated">Frustrated</option>
+            </select>
+        </fieldset> 
+        <input type="submit" id="submit" value="Submit">
+        </form>
+
+    </article>
+</body>
+</html>
