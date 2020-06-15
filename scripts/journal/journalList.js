@@ -3,12 +3,11 @@ let entriesArray = []
     entriesArray = entries
     const entriesdivelement= document.querySelector(".journalEntries")
     entriesdivelement.innerHTML = "";
-    for (const currententriesobject of entries.daily){
+    for (const currentEntriesObject of entries){
         
-            const entriesHTML= entriesConverter(currententriesobject,dayCnt)
+            const entriesHTML= journalEntryConverter(currentEntriesObject)
             entriesdivelement.innerHTML += entriesHTML
             
         }
     }
 
-}
