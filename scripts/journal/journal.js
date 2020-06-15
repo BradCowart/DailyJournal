@@ -1,4 +1,4 @@
-
+/*
 const JournalEntryList = (allEntries) =>{
     for (const entry of allEntries ){
     const journalHTML = journalEntryConverter(entry)
@@ -6,5 +6,5 @@ const JournalEntryList = (allEntries) =>{
     journalEntryArticleElement.innerHTML += journalHTML
 }
 }
-
+*/
 
