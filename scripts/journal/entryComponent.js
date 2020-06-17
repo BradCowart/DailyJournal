@@ -11,3 +11,5 @@ const journalEntryConverter = (journalEntryObject)=>{
         return journalHTMLReresentation
     
 }
+
+export default journalEntryConverter

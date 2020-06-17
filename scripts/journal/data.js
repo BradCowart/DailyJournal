@@ -17,3 +17,5 @@
             .then((arrayOfEntries) => journalEntries = arrayOfEntries)
     }
 }
+
+//export default API.getJournalEntries
